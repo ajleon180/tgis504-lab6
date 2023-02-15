@@ -9,7 +9,7 @@ html, body {
   height: 100%;
 }
 
-/* Add styling for the information box that will appear on the bottom of the map */
+/* Add styling for the information box that will appear on the bottom of the map. */
 #information{
   background-color: #4c6329;
   color: white;
@@ -24,4 +24,9 @@ html, body {
   position: absolute;
   bottom: 0px;
   z-index: 1000;
+}
+
+/* Added styling for the popup to add some separation between the elements in the list. */
+#popup{
+  line-height: 2;
 }
